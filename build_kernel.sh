@@ -6,7 +6,8 @@ sudo apt-get install clang-format clang-tidy clang-tools clang clangd libc++-dev
 
 sudo apt-get install gcc-aarch64-linux-gnu
 sudo apt-get install gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu                                                                                                                                               
-
+git clone https://github.com/Mohamed4k/android_samsung_kernel_SM-G981N.git --depth=1 kernel
+cd kernel
 if [ -d $(pwd)/../proton-clang ] ; then
 echo -e "\n lets's go \n"
 else
